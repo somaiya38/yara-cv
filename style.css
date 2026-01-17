@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' ,sans-serif;
+}
+body{
+    background: rgb(230, 231, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 30px;
+    background: rgb(13, 147, 225);
+    display: grid;
+    grid-template-columns: 1.1fr 2fr ;
+    box-shadow: 0 50px 50px rgba(0 0 0 0.2);
+}
+.profiletext{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 2px double hsla(192, 89%, 57%, 0.3);
+}
+.profiletext h3{
+    color: rgb(225, 225, 225);
+    font-size: 1.3em;
+    margin-top: 10px;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: 600;
+}
+.profiletext h3 span{
+    color: rgb(222, 222, 222);
+    font-size: 0.8em;
+    font-weight: 100;
+}
+.container .left-side{
+    position: relative;
+    background: rgb(1, 38, 68);
+    padding: 40px;
+}
+.imagebox img{
+    height: 200px;
+    width: 160px;
+}
+.contact{
+    padding-top: 20px;
+}
+.title{
+    color: rgb(223, 223, 223);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.contact ul{
+    position: relative;
+    padding-bottom: 20px;
+}
+.contact ul li{
+    position: relative;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+.contact ul li .icon{
+    display: inline-block;
+    width: 20px;
+    font-size: 15px;
+    color: rgb(33, 215, 248);
+}
+.contact ul li span{
+    color: rgb(222, 222, 222);
+    font-weight: 200;
+}
+.education li{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.education h4{
+    color: rgb(60, 249, 255);
+}
+.hobby h4{
+    color: rgb(42, 223, 236);
+}
+.container .right-side{
+    position: relative;
+    background: rgb(244, 244, 244);
+    padding: 40px;
+}
+.title1{
+    color: rgb(141, 231, 222);
+    font-weight: 800px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: rgb(11, 10, 72);
+}
+.details{
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.details ul li h5{
+    font-size: 16px;
+    line-height: 20px;
+}
+.details ul li p{
+    line-height: 25px;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.course a{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: normal;
+}
+.details ul li span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(4, 4, 125);
+}
+.details li h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.media h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
